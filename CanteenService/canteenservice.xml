@@ -11,7 +11,7 @@
     <pubDate>2022-05-15T07:24:04+05:30</pubDate>
     <comments>19.99</comments>
     <category>Top of the Week</category>
-    <category>Pizza &aump; Pasta</category>
+    <category>Pizza '&amp;' Pasta</category>
   </item>
   <item>
     <title>Blueberry French Toast</title>
@@ -31,9 +31,9 @@
     <category>Dessert</category>
   </item>
   <item>
-    <title>Avocado &amp; Sandwich</title>
+    <title>Avocado '&amp;' Sandwich</title>
     <link>https://github.com/nschreder/canteenapp/CanteenService/Images/Avocado and Egg Sandwich.jpg</link>
-    <description>Avocado &amp; Sandwich Description</description>
+    <description>Avocado '&amp;' Sandwich Description</description>
     <pubDate>2022-05-15T07:24:04+05:30</pubDate>
     <comments>6.99</comments>
     <category>Snack</category>
