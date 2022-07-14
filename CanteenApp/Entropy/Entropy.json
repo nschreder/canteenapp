@@ -1,22 +1,94 @@
 {
-  "ComponentIndexes": {},
-  "ControlUniqueIds": {},
+  "ComponentIndexes": {
+    "NavigationBar": 1
+  },
+  "ControlUniqueIds": {
+    "App": 1,
+    "conEntry": 6,
+    "conHome": 10,
+    "conTopOfTheWeekEntry": 15,
+    "galleryTemplate1": 5,
+    "galleryTemplate3": 14,
+    "galNavigationBar": 4,
+    "galTopOfTheWeek": 13,
+    "Home Screen": 9,
+    "icoEntryIcon": 7,
+    "imgTopOfTheWeekImage": 16,
+    "imgTopOfTheWeekTitle": 17,
+    "lblEntryTitle": 8,
+    "lblHomeTitle": 11,
+    "lblTopOfTheWeek": 12,
+    "navHome": 18,
+    "NavigationBar": 3
+  },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "07/14/2022 13:56:33",
   "IsLegacyComponentAllowGlobalScopeCase": false,
-  "LocalConnectionIDReferences": {},
+  "LocalConnectionIDReferences": {
+    "16d332f8-bf0e-425b-8b92-aa54b538603c": "\"/providers/microsoft.powerapps/apis/shared_rss/connections/5c94bd37d25340b497a22fd835c46391\""
+  },
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
-  "OrderComponentMetadata": {},
-  "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "OrderComponentMetadata": {
+    "44637ed39d3e40bb836fd3a8866ced52": 0
+  },
+  "OrderComponentTemplate": {
+    "44637ed39d3e40bb836fd3a8866ced52": 0
+  },
+  "OrderDataSource": {
+    "CustomGallerySample": 1,
+    "RSS": 0
+  },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
-  "PublishOrderIndices": {},
-  "ResourcesJsonIndices": {},
+  "OrderXMLTemplate": {
+    "gallery": 2,
+    "groupContainer": 0,
+    "icon": 4,
+    "image": 3,
+    "label": 1
+  },
+  "PublishOrderIndices": {
+    "App": 0,
+    "conEntry": 4,
+    "conHome": 9,
+    "conTopOfTheWeekEntry": 15,
+    "galleryTemplate1": 3,
+    "galleryTemplate3": 14,
+    "galNavigationBar": 2,
+    "galTopOfTheWeek": 12,
+    "Home Screen": 8,
+    "icoEntryIcon": 5,
+    "imgTopOfTheWeekImage": 16,
+    "imgTopOfTheWeekTitle": 17,
+    "lblEntryTitle": 6,
+    "lblHomeTitle": 10,
+    "lblTopOfTheWeek": 11,
+    "navHome": 13,
+    "NavigationBar": 1
+  },
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0
+  },
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {}
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0638305,
+    "ControlCount": {
+      "44637ed39d3e40bb836fd3a8866ced52": 2,
+      "gallery": 2,
+      "galleryTemplate": 2,
+      "groupContainer": 3,
+      "icon": 1,
+      "image": 1,
+      "label": 4,
+      "screen": 1
+    },
+    "DeserializationLoadTime": 4.2017008,
+    "ErrorCount": 0
+  },
+  "WasLocalDatabaseReferencesEmpty": true
 }
