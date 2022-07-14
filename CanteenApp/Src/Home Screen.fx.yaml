@@ -1,0 +1,76 @@
+"'Home Screen' As screen":
+    Fill: =gblAppColors.Light
+
+    conHome As groupContainer.verticalAutoLayoutContainer:
+        Height: =App.Height
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =App.Width
+        ZIndex: =1
+
+        lblHomeTitle As label:
+            Align: =Align.Center
+            AlignInContainer: =AlignInContainer.Stretch
+            Height: =70
+            LayoutMinHeight: =70
+            LayoutMinWidth: =560
+            Size: =21
+            Text: ="Text"
+            Width: =560
+            ZIndex: =1
+
+        lblTopOfTheWeek As label:
+            AlignInContainer: =AlignInContainer.Stretch
+            Height: =70
+            LayoutMinHeight: =70
+            LayoutMinWidth: =560
+            Size: =21
+            Text: ="Text"
+            Width: =560
+            ZIndex: =2
+
+        galTopOfTheWeek As gallery.galleryHorizontal:
+            Items: =CanteenMenu
+            LayoutMinHeight: =100
+            LayoutMinWidth: =260
+            ShowScrollbar: =false
+            TemplatePadding: =0
+            TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(320, Self.Width - 60), Min(320, Self.Height - 60))
+            ZIndex: =3
+
+            conTopOfTheWeekEntry As groupContainer.verticalAutoLayoutContainer:
+                Height: =Parent.TemplateHeight
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutMode: =LayoutMode.Auto
+                Width: =Parent.TemplateWidth
+                ZIndex: =1
+
+                imgTopOfTheWeekImage As image:
+                    Height: =320
+                    Image: =ThisItem.primaryLink
+                    ImagePosition: =ImagePosition.Fill
+                    LayoutMinHeight: =320
+                    LayoutMinWidth: =320
+                    Width: =320
+                    ZIndex: =1
+
+                imgTopOfTheWeekTitle As label:
+                    AlignInContainer: =AlignInContainer.Stretch
+                    Height: =70
+                    LayoutMinHeight: =70
+                    LayoutMinWidth: =0
+                    Size: =21
+                    Text: =ThisItem.title
+                    Width: =560
+                    ZIndex: =2
+
+        navHome As NavigationBar:
+            AlignInContainer: =AlignInContainer.Stretch
+            Color: =gblAppColors.GrayMediumDark
+            Fill: =gblAppColors.GrayLight
+            Font: =gblFont
+            HoverColor: =gblAppColors.Primary
+            LayoutMinHeight: =640
+            LayoutMinWidth: =0
+            ZIndex: =4
+

@@ -1,34 +1,87 @@
 {
-  "ComponentIndexes": {},
+  "ComponentIndexes": {
+    "navHome": 1,
+    "NavigationBar": 1
+  },
   "ControlUniqueIds": {
     "App": 1,
-    "Screen1": 3
+    "conEntry": 21,
+    "conHome": 16,
+    "conTopOfTheWeekEntry": 29,
+    "galleryTemplate1": 19,
+    "galleryTemplate3": 27,
+    "galNavigationBar": 18,
+    "galTopOfTheWeek": 26,
+    "Home Screen": 3,
+    "icoEntryIcon": 23,
+    "imgTopOfTheWeekImage": 30,
+    "imgTopOfTheWeekTitle": 31,
+    "lblEntryTitle": 22,
+    "lblHomeTitle": 24,
+    "lblTopOfTheWeek": 25,
+    "navHome": 17,
+    "NavigationBar": 15
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "07/14/2022 10:44:09",
+  "HeaderLastSavedDateTimeUTC": "07/14/2022 13:55:57",
   "IsLegacyComponentAllowGlobalScopeCase": false,
-  "LocalConnectionIDReferences": {},
+  "LocalConnectionIDReferences": {
+    "16d332f8-bf0e-425b-8b92-aa54b538603c": "\"/providers/microsoft.powerapps/apis/shared_rss/connections/5c94bd37d25340b497a22fd835c46391\""
+  },
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
-  "OrderComponentMetadata": {},
-  "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "OldLogoFileName": "a44whl21.jpg",
+  "OrderComponentMetadata": {
+    "44637ed39d3e40bb836fd3a8866ced52": 0
+  },
+  "OrderComponentTemplate": {
+    "44637ed39d3e40bb836fd3a8866ced52": 0
+  },
+  "OrderDataSource": {
+    "CustomGallerySample": 1,
+    "RSS": 0
+  },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
+  "OrderXMLTemplate": {
+    "gallery": 2,
+    "groupContainer": 0,
+    "icon": 4,
+    "image": 3,
+    "label": 1
+  },
   "PublishOrderIndices": {
     "App": 0,
-    "Screen1": 0
+    "conEntry": 11,
+    "conHome": 0,
+    "conTopOfTheWeekEntry": 5,
+    "galleryTemplate1": 10,
+    "galleryTemplate3": 4,
+    "galNavigationBar": 9,
+    "galTopOfTheWeek": 3,
+    "Home Screen": 0,
+    "icoEntryIcon": 12,
+    "imgTopOfTheWeekImage": 6,
+    "imgTopOfTheWeekTitle": 7,
+    "lblEntryTitle": 13,
+    "lblHomeTitle": 1,
+    "lblTopOfTheWeek": 2,
+    "navHome": 8,
+    "NavigationBar": 0
   },
-  "ResourcesJsonIndices": {},
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0
+  },
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
     "AnalysisLoadTime": 0.020173,
-    "ControlCount": {},
+    "ControlCount": {
+      "44637ed39d3e40bb836fd3a8866ced52": 1
+    },
     "ErrorCount": 0
   },
   "WasLocalDatabaseReferencesEmpty": true

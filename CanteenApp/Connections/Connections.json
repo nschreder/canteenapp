@@ -1,1 +1,19 @@
-{}
+{
+  "16d332f8-bf0e-425b-8b92-aa54b538603c": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "displayName": "RSS",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1567/1.0.1567.2748/rss/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_rss"
+    },
+    "datasets": {},
+    "dataSources": [
+      "RSS"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "16d332f8-bf0e-425b-8b92-aa54b538603c"
+  }
+}

@@ -1,0 +1,76 @@
+NavigationBar As CanvasComponent:
+    Color: =RGBA(0, 0, 0, 1)
+    Fill: =RGBA(0, 0, 0, 0)
+    Font: ="Text"
+    Height: =120
+    HoverColor: =RGBA(0, 0, 0, 1)
+    Menu: |-
+        =Table(
+            {
+                Title: "Home",
+                Screen: 'Home Screen',
+                Icon: Icon.Home
+            },
+            {
+                Title: "Menu",
+                Screen: 'Home Screen',
+                Icon: Icon.DocumentWithContent
+            },
+            {
+                Title: "Cart",
+                Screen: 'Home Screen',
+                Icon: Icon.ShoppingCart
+            },
+            {
+                Title: "Profile",
+                Screen: 'Home Screen',
+                Icon: Icon.People
+            }
+        )
+    Width: =640
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    galNavigationBar As gallery.galleryHorizontal:
+        Height: =NavigationBar.Height
+        Items: =NavigationBar.Menu
+        TemplatePadding: =0
+        TemplateSize: =Self.Width / CountRows(NavigationBar.Menu)
+        Width: =NavigationBar.Width
+        ZIndex: =1
+
+        conEntry As groupContainer.verticalAutoLayoutContainer:
+            Height: =Parent.TemplateHeight
+            LayoutAlignItems: =LayoutAlignItems.Stretch
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutMode: =LayoutMode.Auto
+            Width: =Parent.TemplateWidth
+            ZIndex: =1
+
+            icoEntryIcon As icon.Add:
+                Color: =NavigationBar.Color
+                FillPortions: =1
+                HoverColor: =NavigationBar.HoverColor
+                Icon: =ThisItem.Icon
+                PaddingBottom: =12
+                PaddingTop: =18
+                ZIndex: =1
+
+            lblEntryTitle As label:
+                Align: =Align.Center
+                AutoHeight: =true
+                Color: =NavigationBar.Color
+                Font: =NavigationBar.Font
+                FontWeight: =FontWeight.Semibold
+                Height: =70
+                HoverColor: =NavigationBar.HoverColor
+                LayoutMinHeight: =70
+                LayoutMinWidth: =0
+                PaddingBottom: =12
+                PaddingTop: =8
+                Size: =12
+                Text: =ThisItem.Title
+                Width: =0
+                ZIndex: =2
+

@@ -77,9 +77,9 @@
     "DocumentAppType": "Phone",
     "DocumentLayoutHeight": 1136,
     "DocumentLayoutLockOrientation": false,
-    "DocumentLayoutMaintainAspectRatio": true,
+    "DocumentLayoutMaintainAspectRatio": false,
     "DocumentLayoutOrientation": "portrait",
-    "DocumentLayoutScaleToFit": true,
+    "DocumentLayoutScaleToFit": false,
     "DocumentLayoutWidth": 640,
     "DocumentType": "App",
     "EnableInstrumentation": false,
@@ -92,16 +92,16 @@
   },
   "PublishInfo": {
     "AppName": "Canteen App",
-    "BackgroundColor": "RGBA(0,176,240,1)",
+    "BackgroundColor": "rgba(48, 122, 89, 1)",
     "IconColor": "RGBA(255,255,255,1)",
-    "IconName": "Edit",
-    "LogoFileName": "",
+    "IconName": "Shop",
+    "LogoFileName": "logo.jpg",
     "PublishDataLocally": false,
     "PublishResourcesLocally": false,
     "PublishTarget": "player",
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Screen1"
+    "Home Screen"
   ]
 }

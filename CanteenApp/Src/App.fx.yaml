@@ -1,3 +1,51 @@
 App As appinfo:
     BackEnabled: =false
+    OnStart: |-
+        =Set(
+            gblAppColors,
+            {
+                Primary: ColorValue("#307A59"),
+                Dark: ColorValue("#000000"),
+                GrayDark: ColorValue("#161616"),
+                GrayMediumDark: ColorValue("#A6A6A6"),
+                GrayMedium: ColorValue("#BDBDBD"),
+                GrayMediumLight: ColorValue("#D5D5D5"),
+                GrayLight: ColorValue("#FAFAFA"),
+                Light: ColorValue("#FFFFFF")
+            }
+        );
+        Set(
+            gblFont,
+            Font.Arial
+        );
+        Set(
+            Menu,
+            Table(
+                {
+                    Title: "Home",
+                    Screen: 'Home Screen',
+                    Icon: Icon.Home
+                },
+                {
+                    Title: "Menu",
+                    Screen: 'Home Screen',
+                    Icon: Icon.DocumentWithContent
+                },
+                {
+                    Title: "Cart",
+                    Screen: 'Home Screen',
+                    Icon: Icon.ShoppingCart
+                },
+                {
+                    Title: "Profile",
+                    Screen: 'Home Screen',
+                    Icon: Icon.People
+                }
+            )
+        );
+        Set(
+            CanteenMenu,
+            RSS.ListFeedItems("https://raw.githubusercontent.com/nschreder/canteenapp/main/CanteenService/canteenservice.xml")
+        )
+    StartScreen: =
 
