@@ -6,16 +6,16 @@
   <description>Canteen Service for the Canteen Power App</description>
   <item>
     <title>Pizza</title>
-    <link>https://github.com/nschreder/canteenapp/CanteenService/Images/Pizza.jpg</link>
+    <link>https://raw.githubusercontent.com/nschreder/canteenapp/main/CanteenService/Images/Pizza.jpg</link>
     <description>Pizza Description</description>
     <pubDate>2022-05-15T07:24:04+05:30</pubDate>
     <comments>19.99</comments>
     <category>Top of the Week</category>
-    <category>Pizza '&amp;' Pasta</category>
+    <category>Pizza &amp; Pasta</category>
   </item>
   <item>
     <title>Blueberry French Toast</title>
-    <link>https://github.com/nschreder/canteenapp/CanteenService/Images/Blueberry French Toast.jpg</link>
+    <link>https://raw.githubusercontent.com/nschreder/canteenapp/main/CanteenService/Images/Blueberry French Toast.jpg</link>
     <description>Blueberry French Toast Description</description>
     <pubDate>2022-05-15T07:24:04+05:30</pubDate>
     <comments>12.99</comments>
@@ -23,7 +23,7 @@
   </item>
   <item>
     <title>Strawberry Cake</title>
-    <link>https://github.com/nschreder/canteenapp/CanteenService/Images/Strawberry Cake.jpg</link>
+    <link>https://raw.githubusercontent.com/nschreder/canteenapp/main/CanteenService/Images/Strawberry Cake.jpg</link>
     <description>Strawberry Cake Description</description>
     <pubDate>2022-05-15T07:24:04+05:30</pubDate>
     <comments>4.99</comments>
@@ -31,16 +31,16 @@
     <category>Dessert</category>
   </item>
   <item>
-    <title>Avocado '&amp;' Sandwich</title>
-    <link>https://github.com/nschreder/canteenapp/CanteenService/Images/Avocado and Egg Sandwich.jpg</link>
-    <description>Avocado '&amp;' Sandwich Description</description>
+    <title>Avocado &amp; Sandwich</title>
+    <link>https://raw.githubusercontent.com/nschreder/canteenapp/main/CanteenService/Images/Avocado and Egg Sandwich.jpg</link>
+    <description>Avocado &amp; Sandwich Description</description>
     <pubDate>2022-05-15T07:24:04+05:30</pubDate>
     <comments>6.99</comments>
     <category>Snack</category>
   </item>
   <item>
     <title>Fresh Bowl</title>
-    <link>https://github.com/nschreder/canteenapp/CanteenService/Images/Fresh Bowl.jpg</link>
+    <link>https://raw.githubusercontent.com/nschreder/canteenapp/main/CanteenService/Images/Fresh Bowl.jpg</link>
     <description>Fresh Bowl Description</description>
     <pubDate>2022-05-15T07:24:04+05:30</pubDate>
     <comments>14.99</comments>
@@ -48,7 +48,7 @@
   </item>
   <item>
     <title>Summer Salad</title>
-    <link>https://github.com/nschreder/canteenapp/CanteenService/Images/Summer Salad.jpg</link>
+    <link>https://raw.githubusercontent.com/nschreder/canteenapp/main/CanteenService/Images/Summer Salad.jpg</link>
     <description>Summer Salad Description</description>
     <pubDate>2022-05-15T07:24:04+05:30</pubDate>
     <comments>8.99</comments>
@@ -56,7 +56,7 @@
   </item>
   <item>
     <title>Greek Salad</title>
-    <link>https://github.com/nschreder/canteenapp/CanteenService/Images/Greek Salad.jpg</link>
+    <link>https://raw.githubusercontent.com/nschreder/canteenapp/main/CanteenService/Images/Greek Salad.jpg</link>
     <description>Greek Salad Description</description>
     <pubDate>2022-05-15T07:24:04+05:30</pubDate>
     <comments>9.99</comments>
